@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Simple Math Course</title>
+    <style>
+        body{direction: ltr; padding: 20px; display: flex; align-items: center; justify-content: center; flex-direction: column; position: relative;}
+        form{display: grid; grid-template-columns: 1fr 2fr; grid-template-rows: 1fr; width: 50%;}
+        #submit{grid-column-start: 1; grid-column-end: 3;}
+        label{margin: 10px;}
+        input{margin: 10px;}
+    </style>
+</head>
+<body>
+    <form action="welcomeUser.php" method="POST">
+        <label for="username">username</label>
+        <input type="text" name="username">
+
+        <label for="password">password</label>
+        <input type="password" name="password">
+
+        <label for="role">login as a?</label>
+        <div>
+            <input type="radio" name="role" value="student" checked>Studnet
+            <input type="radio" name="role" value="teacher">Teacher
+        </div>
+
+        <input type="submit" value="login" id="submit">
+    </form>
+</body>
+</html>
