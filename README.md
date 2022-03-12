@@ -12,7 +12,7 @@ The student should answer at least 10 questions with an average of 90% correct a
 
 **To run the program, you can put "SimpleMathCourse" directory to "htdocs" directory of XAMPP.**
 To initialize the database, please run /SimpleMathCourse/initialDB.php  once for the first time.
-Then start with this url: "/SimpleMathCourse/index.php" and then follow the buttons and instructions.
+Then start with this url: "/SimpleMathCourse/index.html" and then follow the buttons and instructions.
 
 **Captures of the program will be shown bellow:**
 
